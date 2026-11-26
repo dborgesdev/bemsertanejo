@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <title>Bem Sertanejo FM | Feita pra você - Rádio Sertaneja 24h</title>
+    <meta
+      name="description"
+      content="Ouça a Bem Sertanejo FM ao vivo 24h. Modão, sertanejo raiz e os maiores hits universitários. Feita pra você, do Brasil para o mundo."
+    />
+    <meta
+      name="keywords"
+      content="rádio sertaneja, bem sertanejo fm ao vivo, modão de viola, sertanejo universitário, ouvir rádio online, sertanejo 24 horas"
+    />
+    <meta name="author" content="Douglas Borges - Smart Local (https://smartlocal.com.br)" />
+    <meta name="designer" content="Smart Local — https://smartlocal.com.br" />
+    <meta name="publisher" content="Bem Sertanejo FM" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="%SITE_URL%" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700&amp;display=swap"
+    />
+    <meta property="og:site_name" content="Bem Sertanejo FM" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:url" content="%SITE_URL%" />
+    <meta property="og:title" content="Bem Sertanejo FM — Feita pra você" />
+    <meta
+      property="og:description"
+      content="Bem Sertanejo FM, rádio sertaneja online 24h com transmissão contínua sem interrupções. Modão raiz e grandes lançamentos."
+    />
+    <meta property="og:image" content="%SITE_URL%bem-sertanejo-og.png" />
+    <meta property="og:image:alt" content="Logotipo Bem Sertanejo FM" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Bem Sertanejo FM | Feita pra você" />
+    <meta
+      name="twitter:description"
+      content="Ouça a Bem Sertanejo FM ao vivo 24h. A frequência que conecta tradição e os maiores sucessos."
+    />
+    <meta name="twitter:image" content="%SITE_URL%bem-sertanejo-og.png" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "RadioStation",
+            "@id": "%SITE_URL%#station",
+            "url": "%SITE_URL%",
+            "name": "Bem Sertanejo FM",
+            "logo": "%SITE_URL%bem-sertanejo-fm-logo.webp",
+            "image": "%SITE_URL%bem-sertanejo-fm-logo.webp",
+            "description": "Rádio Sertaneja 24 Horas On-line do Brasil para o Mundo.",
+            "genre": ["Sertanejo", "Modão", "Sertanejo Universitário"],
+            "broadcaster": { "@type": "Organization", "name": "Bem Sertanejo FM" },
+            "sameAs": []
+          },
+          {
+            "@type": "WebSite",
+            "@id": "%SITE_URL%#website",
+            "url": "%SITE_URL%",
+            "name": "Bem Sertanejo FM",
+            "description": "A Rádio Sertaneja 24 Horas On-line",
+            "publisher": { "@id": "%SITE_URL%#station" },
+            "copyrightHolder": { "@type": "Organization", "name": "Bem Sertanejo FM" },
+            "creator": {
+              "@type": "Organization",
+              "name": "Smart Local",
+              "url": "https://smartlocal.com.br"
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
