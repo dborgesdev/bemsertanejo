@@ -104,7 +104,7 @@ export function HeroSection() {
             Bem Sertanejo FM
           </span>
           <span className="block mt-3 text-3xl sm:text-4xl md:text-5xl text-cream drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)]">
-            A Rádio Sertaneja 24 Horas
+            Feita pra você!
           </span>
           <span className="block text-2xl sm:text-3xl md:text-4xl text-[#d0c7b7] font-sans font-light tracking-normal mt-2 drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)]">
             On-line do Brasil para o Mundo
@@ -118,7 +118,7 @@ export function HeroSection() {
           className="mt-8 max-w-2xl text-base md:text-lg text-[#f0eadd] leading-relaxed drop-shadow-[0_2px_6px_rgba(0,0,0,0.9)] font-normal"
         >
           A frequência que conecta tradição, grandes sucessos e a melhor companhia do seu dia. Onde
-          o modão e os novos lançamentos se encontram sem interrupções.
+          os novos lançamentos se encontram sem interrupções.
         </motion.p>
 
         <motion.div

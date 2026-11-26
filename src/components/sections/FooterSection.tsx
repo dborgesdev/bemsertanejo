@@ -15,7 +15,7 @@ export function FooterSection() {
               className="h-26 w-auto object-contain drop-shadow-[0_0_15px_rgba(255,215,0,0.3)] transition-transform duration-300 hover:scale-105"
             />
           </div>
-          <p className="mt-3 text-xs uppercase tracking-[0.3em] text-gold">{SITE_DATA.slogan}</p>
+          {/* <p className="mt-3 text-xs uppercase tracking-[0.3em] text-gold">{SITE_DATA.slogan}</p> */}
           <p className="mt-4 text-sm text-taupe max-w-sm leading-relaxed">
             A rádio sertaneja que traz a combinação perfeita entre os grandes clássicos da roça e os
             maiores lançamentos da atualidade.
@@ -47,7 +47,6 @@ export function FooterSection() {
             </li>
           </ul>
         </div>
-
       </div>
       <div
         className="w-full my-8 pt-6 border-t border-current/10 text-center"

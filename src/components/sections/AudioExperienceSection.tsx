@@ -9,8 +9,8 @@ import modao from "../../assets/style-modao.webp";
 const CARDS = [
   {
     img: raiz,
-    title: "O Melhor do Sertanejo Raiz",
-    body: "Os clássicos inesquecíveis que marcaram gerações. A verdadeira essência da viola caipira e dos grandes modões.",
+    title: "O Melhor do Sertanejo",
+    body: "A verdadeira essência da música sertaneja com os sucessos que marcaram gerações.",
   },
   {
     img: univ,
@@ -24,7 +24,7 @@ const CARDS = [
   },
   {
     img: modao,
-    title: "Modão de Fim de Tarde",
+    title: "Música de Fim de Tarde",
     body: "O descanso merecido ao som das maiores composições e duetos marcantes da música sertaneja.",
   },
 ];

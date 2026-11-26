@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { NAV_ITEMS, SITE_DATA } from "@/config/siteData";
-import logo from "@/assets/bem-sertanejo-fm-logo.webp";
+import logo from "@/assets/bem-sertanejo-fm-logo-header.webp";
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -49,7 +49,7 @@ export function Navbar() {
             <img
               src={logo}
               alt="Bem Sertanejo FM"
-              className="h-26 w-auto object-contain drop-shadow-[0_0_15px_rgba(255,215,0,0.3)] transition-transform duration-300 hover:scale-105"
+              className="h-30 w-auto pt-4 object-contain drop-shadow-[0_0_15px_rgba(255,215,0,0.3)] transition-transform duration-300 hover:scale-105"
             />
           </a>
 
